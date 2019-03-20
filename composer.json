@@ -1,0 +1,19 @@
+{
+    "name": "metadrop/authcheck",
+    "description": "Allow check pages has basic auth correctly set.",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Omar Mohamad - El Hassan Lopesino",
+            "email": "omarmoper@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Authcheck\\": "src"
+        }
+    }
+}

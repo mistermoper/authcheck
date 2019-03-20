@@ -1,0 +1,5 @@
+php:
+  image: wodby/php:7.2
+  container_name: "${PROJECT_NAME}_php"
+  volumes:
+    - ./:/var/www/html
